@@ -79,8 +79,6 @@ const OptimizedreplaceNumber = function (arr) {
     {
 
          var currentMax=Math.max(arr[i],temp[i])
-         console.log(currentMax)
-        
          temp[i-1]=currentMax
 
     }       
