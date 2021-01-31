@@ -30,12 +30,14 @@ const countOccurence = function (arr) {
   var x;
 
   for (var i = 0; i < arr.length; i++) {
-    if (arr[i] == arr[i + 1]) {
-      currentOccurence = currentOccurence + 1;
-    } else {
-      if (currentOccurence > previousMax) {
-        previousMax = currentOccurence + 1;
-        x = arr[i];
+         if (arr[i] == arr[i + 1]) {
+             currentOccurence = currentOccurence + 1;
+    } 
+    
+        else {
+             if (currentOccurence > previousMax) {
+                 previousMax = currentOccurence + 1;
+                x = arr[i];
       }
 
       currentOccurence = 0;
